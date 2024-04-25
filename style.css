@@ -47,15 +47,15 @@ body{
 
 
 
-@media only screen and (max-width: 430px){
+@media only screen and (max-width: 425px){
     .home{
         height: 80vh;
     }
     .about{
-        height: 215vh;
+        height: 250vh;
     }
     .contactus{
-        height: 50vh;
+        height: 60vh;
     }
     .btn{
         margin-left: 100px;
