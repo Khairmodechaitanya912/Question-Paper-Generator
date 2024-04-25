@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#signin{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),#3d95e3), url(../img/Exam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading{
+    padding-top: 80px;
+    font-size: 60px;
+}
+.sign{
+    width: 800px;
+    margin: 40px;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 14px;
+}
+.btn{
+    margin-left: 25%;
+}
+
+@media only screen and (max-width: 430px){
+    #signin{
+        height: 100vh;
+        background: linear-gradient(rgba(0,0,0,0.5),#3d95e3), url(../img/Exam.jpg);
+        background-position-x: center;
+        background-size: cover;
+    }
+    .sign{
+        width: 350px;
+        margin-top: 40px;
+    }
+    .heading{
+        font-size: 40px;
+    }
+}
